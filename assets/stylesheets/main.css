@@ -105,6 +105,7 @@ header {
 .project {
   text-align: center;
   margin: 1rem;
+  min-height:18rem;
   max-width: 250px;
   display: flex;
   justify-content: space-evenly;
@@ -116,6 +117,7 @@ header {
   box-sizing: content-box;
   border: 1px solid rgba(255, 255, 255, 0.493) ;
 }
+
 
 .project figcaption {
   color: white;
@@ -133,7 +135,6 @@ header {
 }
 .project img {
   width: 100%;
-  height:auto;
   max-width: 400px;
   max-height: 300px;
   border-radius: 3px;
@@ -226,7 +227,7 @@ footer small{
     flex-wrap: wrap;
   }
   .project {
-    max-width: 200px;
+    max-width: 300px;
   }
   .btn-container {
     flex-direction: row;
@@ -259,7 +260,7 @@ footer small{
     flex-wrap: wrap;
   }
   .project {
-    max-width: 300px;
+    max-width: 400px;
     margin: 3rem;
   }
   .btn-container {
