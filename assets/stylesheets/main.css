@@ -80,6 +80,8 @@ header {
 .social:active {
   background-color: #ca3e47;
 }
+
+
 .projects-container {
   /* border: 2px solid white ; */
   height: auto;
@@ -87,9 +89,12 @@ header {
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
 }
 
 .project-heading {
+  padding: 1rem 0;
   margin: auto;
   width: 80%;
   background-color: #ca3e47;
@@ -97,9 +102,9 @@ header {
 
 .project-heading h2{
   color: white;
+  text-align: center;
   font-size: 2rem;
   font-weight: 300;
-  text-align: center;
 }
 
 .project {
@@ -122,7 +127,7 @@ header {
 .project figcaption {
   color: white;
   font-size: 1rem;
-  margin: auto 1rem;
+  margin: auto ;
 }
 
 .project:hover {
@@ -250,7 +255,6 @@ footer small{
 
   .project-heading {
     width: 50%;
-    margin: 4rem auto;
     margin-top: 10rem;
   }
 
@@ -261,7 +265,8 @@ footer small{
   }
   .project {
     max-width: 400px;
-    margin: 3rem;
+    margin: 1rem;
+    min-height:21rem;
   }
   .btn-container {
     flex-direction: row;
